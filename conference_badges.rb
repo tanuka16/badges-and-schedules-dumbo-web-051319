@@ -12,13 +12,13 @@ def batch_badge_creator(attendees)
   end
 end
 
-def assign_rooms(speakers)
+def assign_rooms(attendees)
   speakers.collect.each_with_index do |name, index|
     "Hello, #{name}! You'll be assigned to room #{index+1}!"
   end
 end
 
 
-def printer
+def printer()
 
 end
